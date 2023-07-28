@@ -1,0 +1,179 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(54, 53, 53);
+}
+
+/* Navbar Section Styling*/
+nav{
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+nav button{
+    padding: 10px 15px;
+    background-color: #E50914 ;
+    border: none;
+    border-radius: 5px;
+}
+nav button a{
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+    
+}
+nav img{
+    height: 50px;
+}
+hr{
+    border: 1px thin rgb(150, 149, 149);
+ 
+}
+
+/* Specifications Section*/
+.detail{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    padding-left: 200px;
+    gap: 20px;
+}
+
+.detail div h1{
+    font-size: 25px;
+    color: rgb(48, 47, 47);
+    margin-top: 20px;
+    
+}
+.specs{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.specs div{
+    display: flex;
+    gap: 15px;
+}
+.specs div img{
+    height: 24px;
+}
+.specs div h3{
+    font-weight: 200;
+}
+/*Specs Section End*/
+
+/*Card or Grid Section*/
+.allgrid{
+    margin-top: 50px;
+    display: flex;
+    align-items: start;
+    margin-left: 180px;
+    
+}
+.grid{
+    margin-left: 20px;
+    border: 1px solid black;
+    text-align: center;
+    width: 200px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.grid a{
+    text-decoration: none;
+}
+.grid-top{
+    display: flex;
+    align-items: start;
+    flex-direction: column;
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    
+}
+.grid-top h3{
+    color: black;
+}
+.grid-top p{
+    color: rgb(49, 49, 49);
+    font-weight: 600;
+    font-size: 16px;
+    padding-top: 5px;
+}
+
+.grid-bottom{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 10px;
+    text-align: start;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.top-c :hover{
+    background-image: linear-gradient(rgb(231, 159, 231),rgb(231, 157, 157));
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    color: white;
+}
+.top-f :hover{
+    background-image: linear-gradient(rgb(140, 168, 219),rgb(113, 121, 194));
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    color: white;
+}
+.top-e :hover{
+    background-image: linear-gradient(rgb(140, 168, 219),rgb(161, 167, 223));
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    color: white;
+}
+.top-d :hover{
+    background-image: linear-gradient(rgb(140, 168, 219),rgb(128, 133, 194));
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    color: white;
+}
+
+.note{
+    margin-top: 50px;
+    margin-left: 50px;
+    color: black;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+/*Media Query for Responsive Design*/
+
+@media (max-width : 680px) {
+
+    .allgrid{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        margin-left: auto;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+    .grid{
+        text-align: center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .note{
+        width: fit-content;
+    }
+    .detail{
+        padding-left: 10px;
+    }
+    nav img{
+        height: 30px;
+    }
+}

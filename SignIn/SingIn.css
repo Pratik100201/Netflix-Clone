@@ -1,0 +1,146 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.main{
+    height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url("/images/header-image.png") ;
+    background-size: cover;
+    background-position: center;
+    padding: 10px 8% ;
+    position: relative;
+}
+.logo img{
+    height: 60px;
+    padding-top: 13px;
+    position: relative;
+    left: -20px;
+}
+
+
+/*Sign in Section*/
+.hero{
+    display: flex;
+    background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6));
+    flex-direction: column;
+    width: 30%;
+    align-items: start;
+    position: relative;
+    top: -550px;
+    right: -450px;
+    justify-content: space-between;
+}
+.hero h1{
+    color: #fff;
+    padding: 40px 60px 20px;
+    font-size: 30px;
+    font-weight: 800;
+}
+.top{
+    display: flex;
+    flex-direction: column;
+    padding-left: 60px;
+    gap: 15px;
+}
+.top input{
+    padding: 15px 50px;
+    border: none;
+    border-radius: 8px;
+    font-size: 18px;
+}
+.top input placeholder{
+    font-size: 8px;
+}
+.sign{
+    
+    padding: 60px;
+}
+.sign button{
+    padding: 15px 130px ;
+    border-radius: 8px;
+    display: flex;
+    gap: 7px;
+    background-color: #E50914;
+    color: #fff;
+    font-size: 15px;
+    font-weight: 700;
+    border: none;
+    cursor: pointer;
+}
+.connect{
+    color: #fff;
+    text-decoration: none;
+    font-size: 15px;
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+}
+.bottom{
+    display: flex;
+    padding-left: 60px;
+    position: relative;
+    top: -50px;
+    align-items: center;
+    justify-content: space-between;
+    gap: 120px;
+}
+.bottom span{
+    color: #fff;
+    font-weight: 300;
+}
+.bottom a{
+    text-decoration: none;
+    color: #fff;
+}
+.footer{
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    padding-left: 60px;
+    gap: 20px;
+    padding-bottom: 40px;
+}
+.footer p{
+    font-weight: 100;
+    color: #f0e3e3a2;
+}
+.footer p span{
+    color: #fff;
+    font-weight: 600;
+    cursor: pointer;
+}
+.footer p .learn{
+    color: navy;
+    font-weight: 300;
+}
+
+
+/*Media Query for Responsive Design*/
+
+@media (max-width:680px) {
+    .logo img{
+        height: 40px;
+    }
+    .hero{
+        top: -550px;
+        right: 0;
+        width: 100%;
+    }
+    .top input {
+        padding: 5%;
+        font-size: 15px;
+    }
+    .sign , .bottom{
+        padding-left: 30px;
+    }
+    .footer p{
+        width: 80%;
+    }
+    .sign button{
+        padding: 20% 110%;
+        margin-left: 30px;
+    }
+}

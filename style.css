@@ -1,0 +1,309 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+/* Navbar Styling */
+body{
+    background: #000;
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2% 10%;
+   
+}
+.mains{
+    height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url("images/header-image.png") ;
+    background-size: cover;
+    background-position: center;
+    padding: 10px 8% ;
+    position: relative;
+}
+.left img{
+    height: 35px;
+
+}
+.right{
+    display: flex;
+    flex-direction: row;
+    gap: 25px;
+}
+.top{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 3px;
+    background: transparent;
+    width: fit-content;
+    color: #fff;
+    font-weight: 600;
+    border-radius: 5px;
+    border: 1px solid #fff;
+    padding: 3% 5%;
+}
+.rightbtn{
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    padding: 3% 15%;
+    cursor: pointer;
+}
+.rightbtn span{
+    font-weight: 700;
+    font-size: 15px;
+
+}
+.top .img{
+    height: 20px;
+}
+.right img{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+
+/* Hero Section*/
+.hero{
+
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    top: -350px;
+    gap: 20px;
+    
+}
+.hero h1{
+    font-weight: 900;
+    font-size: 40px;
+    width: 80%;
+    text-align: center;
+}
+.hero h2{
+    font-weight: 600;
+    font-size: 40px;
+}
+.hero p{
+    font-weight: 500;
+    font-size: 20px;
+}
+.buttons{
+    display: flex;
+    gap: 10px;
+}
+.buttons input{
+    padding: 5% 20%;
+    background-image: linear-gradient(rgba(31, 30, 30, 0.7),rgba(31, 30, 30, 0.7));
+    background: transparent;
+    font-size: 18px;
+    position: relative;
+    left: -100px;
+    border: 0.2px solid white;
+    font-weight: 400;
+    color: #fff;
+    border-radius: 5px;
+}
+.btn{
+    background-color: #E50914;
+    color: #fff;
+    width: fit-content;
+    border: none;
+    border-radius: 5px;
+    font-weight: 600;
+}
+
+.mainse {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    cursor: pointer;
+}
+.mainse span{
+    font-weight: 600;
+    font-size: 18px;
+}
+.connect{
+    color: #fff;
+    text-decoration: none;
+    font-size: 15px;
+    display: flex;
+    gap: 5px;
+}
+.buttons .btn{
+    padding: 5% 15%;
+    width: fit-content;
+    position: relative;
+    left: -100px;
+    
+} 
+/* Division*/
+.divide{
+    background-color: rgba(39, 39, 39, 0.7);
+    width: 100%;
+    height: 10px;
+    position: relative;
+    top: -220px;
+}
+
+/* Poster One*/
+.posterone{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: relative;
+    top: -130px;
+}
+.postleft{
+    padding-left: 10% ;
+}
+.postleft h1{
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 2;
+}
+.postleft h3{
+    font-weight: 500;
+    font-size: 25px;
+    width: 70%;
+}
+.postright img{
+    height: 400px;
+    position: relative;
+    left: -80px;
+
+}
+.allone{
+    position: relative;
+    top: -10px;
+}
+
+
+/* Poster Two*/
+.postertwo{
+    display: flex;
+    align-items: center;
+   padding-left: 15%;
+   padding-top: 8%;
+   gap: 50px;
+   padding-bottom: 10%;
+ 
+} 
+.postlefttwo img{
+    height: 400px;
+    position: relative;
+}
+.postrighttwo h1{
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 1.5;
+    width: 60%;
+}
+.postrighttwo h3{
+    font-weight: 500;
+    font-size: 25px;
+    width: 70%;
+}
+
+
+/* Poster Three*/
+.posterthree{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;   
+    padding-top: 8%;
+    padding-bottom: 8%;
+}
+.postleftthree{
+    padding-left: 10%
+}
+.posterthree h1{
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 2;
+}
+.posterthree h3{
+    font-weight: 500;
+    font-size: 25px;
+    width: 80%;
+   
+}
+.postrightthree img{
+    height: 350px;
+    position: relative;
+    left: -150px;
+}
+
+
+
+/*Media Query for Responsive Design*/
+
+@media (max-width:680px) {
+    .main{
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     gap: 30px;
+     width: 360px;
+    }
+    .left img{
+     height: 22px;
+    }
+    nav{
+     padding: 5px;
+    }
+    .right{
+     margin-right: 25px;
+    }
+    .right img , .top .img{
+     height: 10px;
+    }
+   
+    .mains{
+     padding-top: 15px;
+     padding-left: 0;
+    }
+    .hero{
+     top: -350px;
+    }
+    .hero p{
+     text-align: center;
+     width: 90%;
+    }
+    .buttons{
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     text-align: center;
+    }
+    .buttons .btn , .buttons input , .postrightthree img{
+     left: 0;
+    }
+ 
+    .mq img{
+     height: 200px;
+    }
+    .posterone , .posterthree{
+     flex-direction: column;
+    }
+    .postright img{
+     margin-left: 30%;
+    }
+    .postleft h1 , .posterthree h1 , .postrighttwo h1{
+     line-height: 1.3;
+    }
+    .postertwo{
+     flex-direction: column-reverse;
+    }
+   
+    .postrightthree img{
+     left: 0;
+    }
+ }
