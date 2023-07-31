@@ -10,7 +10,7 @@
   This is a clone of Netflix website built using <strong><em>Vanilla JavaScript</em></strong> as a Front-end . It's not a replica, and it     doesn't have all the features of Netflix website. it's a similar version of Netflix with my own design touch, showing my abilities in Front-end Developement to build something advanced       like Netflix. It contains the home page, sign-in page, sign-up page, browse page, and Payment page.
   <br><br> 
   [Live Demo](https://pratik102923.github.io/Clone/)
-  If is show diseptive content please pase this https://pratik102923.github.io/Clone/
+  If it shows deceptive content please paste this https://pratik102923.github.io/Clone/
   link in incognito mode and then check
 </p>
 
